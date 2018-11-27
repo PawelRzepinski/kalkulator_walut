@@ -1,0 +1,33 @@
+$siteWidth: 1200px;
+$columns: 12;
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: $siteWidth;
+  margin: 0 auto;
+
+  .row {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    @for $i from 1 through $columns {
+      .col-#{$i} {
+        // MOBILE
+        width: 100%;
+        padding: 10px;
+
+        // TABLET++
+        @media screen and (min-width: 768px) {
+          width: (100% / $columns) * $i;
+          padding: 0 10px;
+        }
+      }
+
+    }
+  }
+}
+

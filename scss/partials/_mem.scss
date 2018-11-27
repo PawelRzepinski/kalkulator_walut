@@ -1,0 +1,36 @@
+.mem {
+  height: 30%;
+  width: 90%;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F1F1;
+  border: 3px solid $color1;
+  border-radius: 25px;
+  color: $color2;
+}
+
+.mem p {
+  color: $color2;
+  padding: 0 10px 10px 10px;
+}
+
+.mem h2 {
+  padding: 10px 10px 0 10px;
+}
+
+.mem-photo {
+  width: 40%;
+  height: 90%;
+  padding: 0 10px 0 0;
+}
+
+.mem img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

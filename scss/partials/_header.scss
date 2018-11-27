@@ -1,0 +1,36 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Patua One', cursive;
+}
+
+.header-nav-logo {
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+
+.header-nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-nav-menu ul li {
+  padding: 0 30px;
+}
+
+.header-nav-menu a:before {
+  content:'';
+  position: absolute;
+  left:50%;
+  right:50%;
+  height: 3px;
+  bottom:0;
+  background: $color1;
+  transition:0.5s all;
+}
+
+.header-nav-menu a:hover:before {
+  left: 0;
+  right: 0;
+}

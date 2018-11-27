@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Walut</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Titillium+Web:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-nav">
+                    <div class="header-nav-logo">
+                        <a href="#"><h1>Kalkulator Walut</h1></a>
+                    </div>
+                    <div class="header-nav-menu">
+                        <ul>
+                            <li><a href="#" class="exchange-link">Znajdź Kantor</a></li>
+                            <li><a href="#" class="currency-link">Kursy Walut</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="form-content">
+                    <h3>Mam:</h3>
+                    <div class="form-content-money">
+                        <div class="money-value">
+                            <form>
+                                <input class="money-value-input" type="number" placeholder="Wpisz kwotę">
+                            </form>
+                            <div class="money-value-currency-from">
+                                <select>
+                                    <option>PLN - Polska</option>
+                                    <option>AUD - Australia</option>
+                                    <option>CAD - Kanada</option>
+                                    <option>CHF - Szwajcaria</option>
+                                    <option>CZK - Czechy</option>
+                                    <option>DKK - Dania</option>
+                                    <option>EUR - Unia Europejska</option>
+                                    <option>GBP - Wielka Brytania</option>
+                                    <option>HUF - Węgry</option>
+                                    <option>JPY - Japonia</option>
+                                    <option>NOK - Norwegia</option>
+                                    <option>SEK - Szwecja</option>
+                                    <option>USD - USA</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Zamienię na:</h3>
+                    <div class="xxx">
+                        <div class="money-value-currency-to">
+                            <select class="money-value-currency-to-choice">
+                                <option>PLN - Polska</option>
+                                <option>AUD - Australia</option>
+                                <option>CAD - Kanada</option>
+                                <option>CHF - Szwajcaria</option>
+                                <option>CZK - Czechy</option>
+                                <option>DKK - Dania</option>
+                                <option>EUR - Unia Europejska</option>
+                                <option>GBP - Wielka Brytania</option>
+                                <option>HUF - Węgry</option>
+                                <option>JPY - Japonia</option>
+                                <option>NOK - Norwegia</option>
+                                <option>SEK - Szwecja</option>
+                                <option>USD - USA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <button class="calculate-button">Oblicz</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-text">
+                    <div class="form-text-content">
+                        <span>0 zł</span>
+                        <span>=</span>
+                        <div class="mem">
+                            <div class="mem-text">
+                                <h2>"Ooo Panie, z czym do ludzi ?!"</h2>
+                                <p>- Janusz Biznesu</p>
+                            </div>
+                            <div class="mem-photo">
+                                <img src="img/mem.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="exchange">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="exchange-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d39086.15513965367!2d20.988096953892075!3d52.24547795575123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skantor!5e0!3m2!1spl!2spl!4v1542928709652" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="table">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2>Popularne</h2>
+                <div class="table-content">
+                    <div class="tablePopular">
+                        <table></table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h2>Europa</h2>
+                <div class="table-content">
+                    <div class="tableEu">
+                        <table></table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h2>Reszta Świata</h2>
+                <div class="table-content">
+                    <div class="tableRest">
+                        <table></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Created by Paweł Rzepiński</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

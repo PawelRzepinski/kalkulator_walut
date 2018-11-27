@@ -1,0 +1,38 @@
+.table-content {
+  display: flex;
+  justify-content: center;
+  font-family: $font1;
+  margin: 20px 50px 50px 50px;
+}
+
+#table h2 {
+  display: inline-block;
+  font-family: $font1;
+  color: $color2;
+  padding-bottom: 10px;
+  min-width: 200px;
+  border-bottom: 3px solid $color1;
+}
+
+.tablePopular,
+.tableRest,
+.tableEu {
+  border: 2px solid $color1;
+  margin: 30px;
+  -webkit-box-shadow: 6px 9px 24px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 9px 24px 3px rgba(0,0,0,0.75);
+  box-shadow: 6px 9px 24px 3px rgba(0,0,0,0.75);
+}
+
+.table {
+  padding: 10px;
+}
+
+td {
+  width: 500px;
+  padding: 30px;
+  margin: 5px;
+  background: $color2;
+  color: $color1;
+}
+
